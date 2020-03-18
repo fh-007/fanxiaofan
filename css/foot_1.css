@@ -1,0 +1,77 @@
+.foot_1>div{
+	margin: 0 auto;
+	width: 62%;
+	height:50%;
+	position: relative;
+	background-color:#4C5A65;
+	
+	
+}
+.foot_1{
+	margin: 0 auto;
+	width: 100%;
+	height:50%;
+	position: relative;
+	background-color:#4C5A65;
+	color:#D3D7DB;
+	
+}
+.foot_1>div>div{
+	width:16%;
+	height:60%;
+	display: inline-block;
+	
+	position: absolute;
+	margin-top:4%;
+}
+.foot_1>div>div:nth-of-type(1){
+	left:2%;
+}
+.foot_1>div>div:nth-of-type(2){
+	left:18%;
+}
+.foot_1>div>div:nth-of-type(3){
+	left:34%;
+}
+.foot_1>div>div:nth-of-type(4){
+	left:50%;
+}
+.foot_1>div>div:nth-of-type(5){
+	left:66%;
+}
+.foot_1>div>div:nth-of-type(6){
+	left:82%;
+}
+.foot_1>div>div>ul{
+	list-style: none;
+}
+.foot_1>div>div>div{
+	width:80%;
+	height:100%;
+	margin:0 auto;
+}
+.foot_1>div>div:not(#last_foot)>div{
+	border-right: 1px dashed silver;
+}
+.foot_1>div>div>div>span{
+	display: inline-block;
+	font-size: 11px;
+}
+.foot_1>div>div>div>p{
+	width:100%;
+	height:12%;
+}
+.foot_1>div>div li{
+	display: inline-block;
+	width:100%;
+	font-size: 10px;
+}
+.rectangle{
+	width:110px;
+	height:110px;
+	background-color: white;
+}
+#cle{
+	position: relative;
+	left:12px;
+}
