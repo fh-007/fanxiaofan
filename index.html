@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>html+css小结项目</title>
+		<link rel="stylesheet" type="text/css" href="css/travel_in.css" />
+		<link rel="stylesheet" type="text/css" href="css/travel_around.css" />
+		<link rel="stylesheet" type="text/css" href="css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="css/travel_out.css" />
+		<link rel="stylesheet" type="text/css" href="css/land_ticket.css"/>
+		<link rel="stylesheet" type="text/css" href="css/travel_local.css" />
+		<link rel="stylesheet" type="text/css" href="css/stratege.css" />
+		<link rel="stylesheet" type="text/css" href="css/coord_trade.css" />
+		<link rel="stylesheet" type="text/css" href="css/foot_1.css" />
+		<link rel="stylesheet" type="text/css" href="css/foot_2.css" />
+		<style>
+			*{
+				margin:0;
+				padding:0;
+			}
+			.sum{
+				width:100%;
+				height:100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="sum">
+			<div class="head">
+				<div class="head_1">
+						<p>
+							<span>您好，欢迎来到疯游精旅游网！</span>
+							<span>登录</span>
+							<span>注册</span>
+						</p>
+						<p>
+							<span>我的疯游</span>
+							<span>微信</span>
+							<span>客户服务</span>
+						</p>
+				</div>
+				<div class="head_2">
+					<div>
+						<img class="logo" src="img/logo.png" alt="图片加载失败"/>
+					</div>
+					<div>
+						<div id="left">
+							<span>所有产品</span>
+							<div class="sanjiao"></div>
+						</div>
+						<input type="text" placeholder="目的地、主题、签证、或景区名称"/>
+						<div class="big"></div>
+						<input type="submit"  value="搜索"/>
+					</div>
+					<div>
+						<div></div>
+						<span>客户服务热线</span>
+						<span>0816</span>
+						<span>-000000</span>
+					</div>
+				</div>
+				<div class="head_3">
+					<ul>
+						<li class="first_page">首页</li>
+						<li>出境旅游</li>
+						<li>国内旅游</li>
+						<li>周边旅游</li>
+						<li>机票</li>
+						<li>客栈酒店</li>
+						<li>景点门票</li>
+						<li>游记攻略</li>
+						
+					</ul>
+				</div>
+				<div class="head_4">
+					<div>
+							<div>
+								<span class="ticket">
+									<div></div>
+									<span>机票</span>
+								</span>
+								<span>
+									<div></div>
+									<span>门票</span>
+								</span>
+								<span>
+									<div></div>
+									<span>酒店</span>
+								</span>
+								<span>
+									<div></div>
+									<span>旅游</span>
+								</span>
+								<span class="visa">
+									<div></div>
+									<span>签证</span>
+								</span>
+							</div>
+							<div>
+								<div class="navi">
+									<span>国内机票</span>
+									<div></div>
+									<span>国际机票</span>
+									<div></div>
+								</div>
+								<div>
+									<span class="a">航程类型</span>
+									<input type="radio" class="class" name="class"/>去往返
+									<input type="radio" class="class" name="class" />单程
+								</div>
+								<div>
+									<span class="b">往返城市</span>
+									<input class="aa" type="text" placeholder="北京"/>
+									<div class="go"></div>
+									<input class="bb" type="text" placeholder="上海"/>
+								</div>
+								<div>
+									<span class="c">出发时间</span>
+									<input class="cc" type="text" placeholder="2015-04-02"/>
+									<span class="d">返程</span>
+									<input class="dd" type="date"/>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="body">
+				<div class="hot">
+					<p id="first">
+						<span>热门推荐</span>
+						<span>爱生活，游世界</span>
+					</p>
+					<div>
+						<!--<img id="img1" src="img/img1.jpg" alt="图片加载失败"/>-->
+					</div>
+					<!--<p class="price1">
+						<span>踏青之旅  游玩购物两不误</span>
+						<span>￥298.00</span>
+						<span>起</span>
+					</p>-->
+					<div>
+						<!--<img id="img1" src="img/img2.jpg" alt="图片加载失败"/>-->						
+					</div>
+					<!--<p class="price2">
+						<span>踏青之旅  游玩购物两不误</span>
+						<span>￥298.00</span>
+						<span>起</span>
+					</p>-->
+					<div>
+						<div id="third">
+							<!--<p class="price3_1">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>-->
+						</div>
+						<div id="forth">
+							<!--<p class="price3_2">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>-->
+						</div>
+					</div>
+				</div>
+				<ul>
+					
+					<li>热门</li>
+					<div class="circle"></div>
+					<li>周边</li>
+					<div class="circle"></div>
+					<li>国内</li>
+					<div class="circle"></div>
+					<li>境外</li>
+					<div class="circle"></div>
+					<li>景点</li>
+					<div class="circle"></div>
+				</ul>
+				<div class="travel_around">
+					<div class="travel_around_head">
+						<span>周边旅游</span>
+						<span>拎包就走，轻松出游</span>
+						<span>
+							<span id="hot_choose">热门精选</span>
+							<span>北京</span>
+							<span>上海</span>
+							<span>杭州</span>
+							<span>苏州</span>
+							<span>南京</span>
+							<span>深圳</span>
+						</span>
+						<span>更多周边游</span>
+						<div class="jian"></div>
+					</div>
+					<div class="travel_around_foot">
+						<div>
+							<div class="hot_direction">
+								<span>热门目的地</span>
+								<ul>
+									<li>上海</li>
+									<li>济南</li>
+									<li>泰安</li>
+									<li>青岛</li>
+									<li>枣庄</li>
+									<li>威海</li>
+									<li>嘉兴</li>
+									<li>聊城</li>
+									<li>厦门</li>
+									<li class="hang">杭州瘦西湖</li>
+								</ul>
+							</div>
+							<div class="special_method">
+								<span>特色玩法</span>
+								<ul>
+									<li class="short">亲子</li>
+									<li class="short">赏花</li>
+									<li class="short">巴士游</li>
+									<li>周边踏青</li>
+									<li>山水景观</li>
+									<li>主题乐园</li>
+									<li>节日出游</li>
+									<li>古镇村落</li>
+									<li>金牌产品</li>
+								</ul>
+							</div>
+						</div>
+						<div></div>
+						<p class="pic_1">
+							<span>踏青之旅  游玩购物两不误</span>
+							<span>￥298.00</span>
+							<span>起</span>
+						</p>
+						<div>
+							<div id="forth_one"></div>
+							<p class="pic_2">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+							<div id="forth_two"></div>
+							<p class="pic_3">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+						</div>
+						<div>
+							<div id="forth_three"></div>
+							<p class="pic_4">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+							<div id="forth_four"></div>
+							<p class="pic_5">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="travel_in">
+					<div class="travel_around_head">
+						<span>国内旅游</span>
+						<span>行走山水间，足迹遍中国</span>
+						<span>
+							<span id="hot_choose">热门精选</span>
+							<span>北京</span>
+							<span>上海</span>
+							<span>杭州</span>
+							<span>苏州</span>
+							<span>南京</span>
+							<span>深圳</span>
+						</span>
+						<span>更多国内游</span>
+						<div class="jian"></div>
+					</div>
+					<div class="travel_around_foot">
+						<div>
+							<div class="hot_direction">
+								<span>热门目的地</span>
+								<ul>
+									<li>上海</li>
+									<li>济南</li>
+									<li>泰安</li>
+									<li>青岛</li>
+									<li>枣庄</li>
+									<li>威海</li>
+									<li>嘉兴</li>
+									<li>聊城</li>
+									<li>厦门</li>
+									<li>甘肃</li>
+									<li>桂林</li>
+									<li class="hang">九寨沟</li>
+									<li>西藏</li>
+									<li>大理</li>
+									<li class="hang">张家界</li>
+								</ul>
+							</div>
+							<div class="special_method">
+								<span>热门主题</span>
+								<ul>
+									<li>孝行天下</li>
+									<li>毕业旅行</li>
+									<li>周边踏青</li>
+									<li>山水景观</li>
+									<li>主题乐园</li>
+									<li>节日出游</li>
+									<li>古镇村落</li>
+									<li>金牌产品</li>
+								</ul>
+							</div>
+						</div>
+						<div></div>
+						<p class="pic_1">
+							<span>踏青之旅  游玩购物两不误</span>
+							<span>￥298.00</span>
+							<span>起</span>
+						</p>
+						<div>
+							<div id="forth_one"></div>
+							<p class="pic_2">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+							<div id="forth_two"></div>
+							<p class="pic_3">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+						</div>
+						<div>
+							<div id="forth_three"></div>
+							<p class="pic_4">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+							<div id="forth_four"></div>
+							<p class="pic_5">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="travel_out">
+					<div class="travel_around_head">
+						<span>境外旅游</span>
+						<span>世界有多大，我就玩多远</span>
+						<span>
+							<span id="hot_choose">跟团游</span>
+							<span>自由行</span>
+						</span>
+						<span>更多境外游</span>
+						<div class="jian"></div>
+					</div>
+					<div class="travel_around_foot">
+						<div>
+							<div class="hot_direction">
+								<span>热门目的地</span>
+								<ul>
+									<li>泰国</li>
+									<li class="hang">马尔代夫</li>
+									<li class="hang">普吉岛</li>
+									<li class="hang">长滩岛</li>
+									<li class="hang">巴厘岛</li>
+									<li>迪拜</li>
+									<li class="hang">济州岛</li>
+									<li class="hang">塞班岛</li>
+									<li>巴黎</li>
+								</ul>
+							</div>
+							<div class="special_method">
+								<span>热门国家</span>
+								<ul>
+									<li>韩国</li>
+									<li>日本</li>
+									<li>美国</li>
+									<li>法国</li>
+									<li class="long">柬埔寨</li>
+									<li class="long">澳大利亚</li>
+									<li class="long">西班牙</li>
+									<li>埃及</li>
+									<li>泰国</li>
+								</ul>
+							</div>
+						</div>
+						<div></div>
+						<p class="pic_1">
+							<span>踏青之旅  游玩购物两不误</span>
+							<span>￥298.00</span>
+							<span>起</span>
+						</p>
+						<div>
+							<div id="forth_one"></div>
+							<p class="pic_2">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+							<div id="forth_two"></div>
+							<p class="pic_3">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+						</div>
+						<div>
+							<div id="forth_three"></div>
+							<p class="pic_4">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+							<div id="forth_four"></div>
+							<p class="pic_5">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="land_ticket">
+					<div class="travel_around_head">
+						<span>景点门票</span>
+						<span>行走山水间，足迹遍中国</span>
+						<span>
+							<span id="hot_choose">古镇</span>
+							<span>动物园</span>
+							<span>主题乐园</span>
+							<span>自然风光</span>
+						</span>
+						<span>更多景点</span>
+						<div class="jian"></div>
+					</div>
+					<div class="travel_around_foot">
+						<div>
+							<div class="hot_direction">
+								<span>热门目的地</span>
+								<ul>
+									<li>上海</li>
+									<li>济南</li>
+									<li>泰安</li>
+									<li>青岛</li>
+									<li>枣庄</li>
+									<li>威海</li>
+									<li>嘉兴</li>
+									<li>聊城</li>
+									<li>厦门</li>
+									<li class="hang">杭州瘦西湖</li>
+								</ul>
+							</div>
+							<div class="special_method">
+								<span>主题景点</span>
+								<ul>
+									<li>园林</li>
+									<li>海洋馆</li>
+									<li>温泉</li>
+									<li class="long">城市观光</li>
+									<li class="long">名胜古迹</li>
+									<li >滑雪</li>
+									<li >植物园</li>
+									<li>游船</li>
+									<li class="long">影视基地</li>
+									<li >科技馆</li>
+								</ul>
+							</div>
+						</div>
+						<div></div>
+						<p class="pic_1">
+							<span>踏青之旅  游玩购物两不误</span>
+							<span>￥298.00</span>
+							<span>起</span>
+						</p>
+						<div>
+							<div id="forth_one"></div>
+							<p class="pic_2">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+							<div id="forth_two"></div>
+							<p class="pic_3">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+						</div>
+						<div>
+							<div id="forth_three"></div>
+							<p class="pic_4">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+							<div id="forth_four"></div>
+							<p class="pic_5">
+								<span>扬州瘦西湖</span>
+								<span>￥168.00</span>
+								<span>起</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="travel_local">
+					<div class="travel_around_head">
+						<span>当地游</span>
+						<span>拎包就走，轻松出游</span>
+						<span>更多景点</span>
+						<div class="jian"></div>
+					</div>
+					<div class="travel_around_foot">
+						<div></div>
+						<p>
+							<span>扬州瘦西湖</span>
+							<span>￥168.00</span>
+							<span>起</span>
+						</p>
+						<div></div>
+						<p>
+							<span>扬州瘦西湖</span>
+							<span>￥168.00</span>
+							<span>起</span>
+						</p>
+						<div></div>
+						<p>
+							<span>扬州瘦西湖</span>
+							<span>￥168.00</span>
+							<span>起</span>
+						</p>
+						<div></div>
+						<p>
+							<span>扬州瘦西湖</span>
+							<span>￥168.00</span>
+							<span>起</span>
+						</p>
+						<div></div>
+						<p>
+							<span>扬州瘦西湖</span>
+							<span>￥168.00</span>
+							<span>起</span>
+						</p>
+						<div></div>
+						<p>
+							<span>扬州瘦西湖</span>
+							<span>￥168.00</span>
+							<span>起</span>
+						</p>
+						<div></div>
+						<p>
+							<span>扬州瘦西湖</span>
+							<span>￥168.00</span>
+							<span>起</span>
+						</p>
+						<div></div>
+						<p>
+							<span>扬州瘦西湖</span>
+							<span>￥168.00</span>
+							<span>起</span>
+						</p>
+						<div></div>
+						<p>
+							<span>扬州瘦西湖</span>
+							<span>￥168.00</span>
+							<span>起</span>
+						</p>
+						<div></div>
+						<p>
+							<span>扬州瘦西湖</span>
+							<span>￥168.00</span>
+							<span>起</span>
+						</p>
+					</div>
+				</div>
+				<div class="strategy">
+					<div class="travel_around_head">
+						<span>旅游攻略</span>
+						<span>拎包就走，为您提供更多旅途服务</span>
+						<span>更多攻略</span>
+						<div class="jian"></div>
+					</div>
+					<div class="travel_around_foot">
+						<ul class="str_fir">
+							<li>【厦门旅游】2014最新最全最实用厦门旅游攻略 含防骗注意事项</li>
+							<li>【塞班旅游】 --- 【走着走着】之遗落在太平洋上的宝石---塞班</li>
+							<li>【台湾旅游】 饕餮盛宴在台湾</li>
+							<li>【澳大利亚旅游】 澳洲11日（悉尼-墨尔本-凯恩斯）衣食住行攻略</li>
+							<li>【黄山旅游】 我们的旅途之南京、扬州、镇江、宏村、黄山</li>
+						</ul>
+						<ul>
+							<li>【台湾旅游】 饕餮盛宴在台湾</li>
+							<li>【澳大利亚旅游】 澳洲11日（悉尼-墨尔本-凯恩斯）衣食住行攻略</li>
+							<li>【黄山旅游】 我们的旅途之南京、扬州、镇江、宏村、黄山</li>
+							<li>【新疆旅游】 徒步喀纳斯，看童话里的金秋</li>
+							<li>【韩国旅游】 泡菜国7天6夜机票、签证、衣食住行全包4000元</li>
+						</ul>
+						<ul>
+							<li>【云南旅游】 【遇见另一种生活】 昆明-大理-双廊-丽江-泸沽湖</li>
+							<li>【大理旅游】 【遇见另一种生活】 昆明-大理-双廊-丽江-泸沽湖</li>
+							<li>【韩国旅游】 泡菜国7天6夜机票、签证、衣食住行全包4000元</li>
+							<li>【上海旅游】 走进魔都，感受不一样的上海</li>
+							<li>【澳大利亚旅游】 澳洲11日(悉尼-墨尔本-凯恩斯)衣食住行攻略</li>
+						</ul>
+					</div>
+				</div>
+				<div class="coord_trade">
+					<div class="travel_around_head">
+						<span>合作商家</span>
+						<span>拎包就走，为您提供更多旅途服务</span>
+						<span>更多攻略</span>
+						<div class="jian"></div>
+					</div>
+					<div class="travel_around_foot">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div class="last_two"></div>
+						<div id="last"></div>
+					</div>
+				</div>
+			</div>
+			<div class="foot">
+				<div class="foot_1">
+					<div>
+					<div>
+						<div>
+							<span>如何付款和发票</span>
+							<p></p>
+							<ul>
+								<li>支付宝网银支付</li>
+								<li>信用卡电话支付</li>
+								<li>门店支付或银行汇款</li>
+								<li>货币抵用和发票</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<div>
+							<span>出境游和港澳游常识</span>
+							<p></p>
+							<ul>
+								<li>如何办理护照</li>
+								<li>如何办理旅游签证</li>
+								<li>如何办理港澳通行证</li>
+								<li>如何办理台湾旅游签证</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<div>
+							<span>预览旅游产品的问题</span>
+							<p></p>
+							<ul>
+								<li>旅游产品名词解释</li>
+								<li>如何看懂旅游产品价格</li>
+								<li>如何购买旅游意外保险</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<div>
+							<span>如何签订旅游合同</span>
+							<p></p>
+							<ul>
+								<li>传真/邮件签署合同</li>
+							</ul>
+						</div>
+						
+					</div>
+					<div>
+						<div>
+							<span>会员注册登录方式</span>
+							<p></p>
+							<ul>
+								<li>如何使用游币</li>
+								<li>疯游网会刊</li>
+								<li>会员优惠</li>
+							</ul>
+						</div>
+						
+					</div>
+					<div id="last_foot">
+						<div>
+							<span id="cle">扫描微信二维码</span>
+							<p></p>
+							<div class="rectangle"></div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="foot_2">
+					<div>Copyright @2015 www.xxxxx.net 杭州欢游旅行社有限公司    蜀ICP备0000001号-1    蜀ICP证B2-20140022   旅游许可证L-Z000000</div>
+					<div>
+						<img src="img/footer.jpg" alt="图片加载失败"/>
+					</div>
+					<div>
+						<span>友情链接：</span>
+						<ul>
+							<li>网易旅游</li>
+							<li>凤凰网旅游</li>
+							<li>中国经济网</li>
+							<li>雅虎旅游</li>
+							<li>百度旅游</li>
+							<li>人民网旅游</li>
+							<li>中国制造网</li>
+							<li>51766旅游网</li>
+							<li>欣欣旅游网</li>
+							<li>驴妈妈旅游</li>
+							<li>网奇艺旅游</li>
+							<li>去哪</li>
+							<li>拉勾勾旅游</li>
+							<li>米胖旅游网</li>
+							<li>新华网旅游</li>
+							<li>佰程旅行网</li>
+							<li>神州国旅</li>
+							<li>新疆旅游</li>
+							<li>旅游攻略</li>
+							<li>酷讯旅游</li>
+							<li>360旅游</li>
+							<li>格林豪泰酒店</li>
+							<li>wed114结婚网</li>
+							<li>新通留学网</li>
+							<li>签证资讯网</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
